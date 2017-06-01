@@ -1,3 +1,51 @@
-/*
- * Estilos de tu proyecto
- */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    font-size: 16px;
+    line-height: 1.71429;
+    background-color: #fff;
+    font-family: 'Raleway', sans-serif;
+}
+
+.link{
+  font-weight: 700;
+  padding: 21px;
+  display: inline-block;
+  float: right;
+}
+
+
+header{
+  position: fixed;
+  background: #2c3e50;
+  width: 100%;
+  top: 0;
+}
+
+#titulo{
+	display: inline-block;
+}
+
+#first-box .start-boots{
+	background-color: #18bc9c;
+  text-align: center;
+  padding-top: 155px;
+  padding-bottom: 50px;
+  width: 100%;
+}
+
+.start-boots img{
+
+}
