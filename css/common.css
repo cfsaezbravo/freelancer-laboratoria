@@ -1,4 +1,10 @@
 
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
 [class*="col-"]{
 	 min-height: 7px;
 	 float: left;
@@ -63,5 +69,5 @@
 .col-12{
 	/*(12/12)*100*/
 	width: 100%;
-	height: 100%;
+	
 }
