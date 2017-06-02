@@ -24,16 +24,70 @@
 }
 
 [class*="col-"]{
-	min-height: 7px;
-	padding: 12px;
-	float: left;
+	 min-height: 7px;
+	 float: left;
+	 padding: 12px;
+}
+
+.col-1{
+	/*(1/12)*100*/
+	width: 8.333333%;
+}
+
+.col-2{
+	/*(2/12)*100*/
+	width: 16.666667%;
+}
+
+.col-3{
+	/*(3/12)*100*/
+	width: 25%;
 }
 
 .col-4{
-	/* (4 / 12) x 100 */
+	/*(4/12)*100*/
 	width: 33.333333%;
-	padding-top: 40px;
-    padding-left: 50px;
+}
+
+.col-5{
+	/*(5/12)*100*/
+	width: 41.666667%;
+}
+
+.col-6{
+	/*(6/12)*100*/
+	width: 50%;
+}
+
+.col-7{
+	/*(7/12)*100*/
+	width: 58.333333%;
+}
+
+.col-8{
+	/*(8/12)*100*/
+	width: 66.666667%;
+}
+
+.col-9{
+	/*(9/12)*100*/
+	width: 75%;
+}
+
+.col-10{
+	/*(10/12)*100*/
+	width: 83.333333%;
+}
+
+.col-11{
+	/*(11/12)*100*/
+	width: 91.666667%;
+}
+
+.col-12{
+	/*(12/12)*100*/
+	width: 100%;
+	height: 100%;
 }
 
 .img-portfolio:hover{
@@ -65,40 +119,3 @@
 	cursor: pointer;
 }
 
-#portfolioimgs{
-	background-color: rgba(24, 188, 156,0.5);
-	width: 100%;
-	height: 100%;
-	position: fixed;
-	top: 0;
-	left: 0;
-	z-index: 1;
-}
-
-#portfolioimgs .modal-body{
-    width: 60%;
-    height: 60%;
-    margin: 0 auto;
-    margin-top: 100px;
-    z-index: 1;
-    
-}
-
-#portfolioimgs .modal-body img{
-	
-}
-
-#portfolioimgs .close{
-  position: absolute;
-  top: 20px;
-  right: 20px;
-  cursor: pointer;
-}
-
-#portfolioimgs .close img{
-  width: 60px;
-}
-
-.hide{
-  display: none;
-}
